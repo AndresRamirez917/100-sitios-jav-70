@@ -1,0 +1,70 @@
+//mainheader
+#mainheader {
+    .navbar {
+        ul {
+            display: block;
+            li {
+                text-align: center;
+            }
+        }
+        .container {
+            display: block;
+        }
+    }
+    #showcase {
+        .showcase-content {
+            display: block;
+           
+          .showcase-text {
+            margin-left: 0;
+            text-align: center;
+            margin: 0 auto;
+            .display-1, .display-2, p, .button-1 {
+                display: block;
+                margin: 0 auto;
+                text-align: center;
+            }
+            .button-1 {
+                margin-top: 2rem;
+            }
+            
+          
+          }
+        img {
+            margin-top: 3rem;
+            width: 100%;
+        }
+        }
+    }
+}
+
+
+//work
+#work {
+    .work-row {
+        display: block;
+        text-align: justify;
+        img {
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+#banner {
+    .banner-subtitle {
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+   
+}
+
+//contact
+#sayhi {
+    .sayhi-row {
+
+    }
+}

@@ -1,0 +1,46 @@
+#mainheader .navbar ul {
+  display: block;
+}
+#mainheader .navbar ul li {
+  text-align: center;
+}
+#mainheader .navbar .container {
+  display: block;
+}
+#mainheader #showcase .showcase-content {
+  display: block;
+}
+#mainheader #showcase .showcase-content .showcase-text {
+  margin-left: 0;
+  text-align: center;
+  margin: 0 auto;
+}
+#mainheader #showcase .showcase-content .showcase-text .display-1, #mainheader #showcase .showcase-content .showcase-text .display-2, #mainheader #showcase .showcase-content .showcase-text p, #mainheader #showcase .showcase-content .showcase-text .button-1 {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+#mainheader #showcase .showcase-content .showcase-text .button-1 {
+  margin-top: 2rem;
+}
+#mainheader #showcase .showcase-content img {
+  margin-top: 3rem;
+  width: 100%;
+}
+
+#work .work-row {
+  display: block;
+  text-align: justify;
+}
+#work .work-row img {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+#banner .banner-subtitle {
+  display: block;
+  text-align: center;
+  margin: 0;
+}/*# sourceMappingURL=mobile.css.map */

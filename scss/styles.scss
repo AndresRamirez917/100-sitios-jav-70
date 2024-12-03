@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+$font-stack:"Montserrat", sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: $font-stack;
+    scroll-behavior: smooth;
+
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+ul {
+    list-style: none; 
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+    color: violet;
+}
+
+::placeholder{
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    content: "\f0007";
+    text-align: right;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 30px;
+    overflow: auto; //ojo
+}
+
+.btn {
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-1 {
+    background: #000;
+}
+
+.button-2 {
+    background: #00000064;
+    margin-top: 2rem;
+}
+
+.flex {
+    display: flex;
+    flex: 1;
+    gap: 50px;
+}
+
+img {
+    max-width: 100%;
+}
+
+form {
+    .form-group {
+        margin-bottom: 1rem;
+    }
+    .form-control {
+        display: block;
+        width: 100%;
+        padding: 1rem;
+        border-radius: 5px;
+    }
+    .button-1 {
+        width: 100%;
+    }
+}
+
+//mainheader
+#mainheader {
+    
+    background-image: linear-gradient(to right, #dab067, #d5bf99);
+    padding-bottom: 2rem;
+    .navbar {
+        ul {
+            display: flex;
+            text-align: center;
+            margin: 0 auto;
+            padding-top: 2rem;
+            li {
+                display: inline-block;
+                margin-left: 1rem;
+            }
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+    }
+
+    //showcase
+    #showcase {
+        background-image: radial-gradient(farthest-corner at 60% 55%, #d5bf99, #dab067);
+        
+        .showcase-content {
+            flex: 1;
+            .display-1 {
+                margin-top: 10rem;
+                font-size: 5rem;
+                color: rgb(255, 255, 255);
+            }
+            
+            .display-2 {
+                margin-left: 3rem;
+                font-size: 5rem;
+                color: rgb(255, 255, 255);
+            }
+    
+            p {
+               width: 80%;
+               margin-left: 7rem;
+                line-height: 30px;
+            }
+            .button-1 {
+                display: block;
+                margin: 0 auto;
+                width: fit-content;
+            }
+          img {
+            width: 45%;
+          }
+        }
+    }
+}
+
+//mainheader-2
+//mainheader
+#mainheader-2 {
+    background-image: linear-gradient(to right, #dab067, #d5bf99);
+    padding-bottom: 2rem;
+    .navbar {
+        ul {
+            display: flex;
+            text-align: center;
+            margin: 0 auto;
+            padding-top: 2rem;
+            li {
+                display: inline-block;
+                margin-left: 1rem;
+            }
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+    }
+}
+
+#banner {
+    margin-bottom: 2rem;
+    .banner-subtitle {
+        
+        padding: 70px 50px;
+ 
+
+         background: linear-gradient(to right, #dab067, #d5bf99);
+         font-size: 3rem;
+         text-align: left;
+        span {
+            font-weight: 400;
+        }
+        
+        
+    }
+}
+
+
+//work
+#work {
+    width: 80%;
+    margin: 0 auto;
+   
+    .work-row {
+        margin-bottom: 3rem;
+        img {
+            width: 180px;
+        }
+        
+    }
+}
+
+//sayhi
+#contact {
+    h2 {
+        margin: 3rem 0;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    form {
+        width:80%;
+        margin: 0 auto;
+        border: 1px solid black;
+        padding: 30px;
+        margin-bottom: 2rem;
+        .flex-box-1 {
+            flex: 1;
+        }
+        button {
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+
+//footer
+#footer {
+ 
+    text-align: center;
+    padding: 3rem;
+    background: #000;
+}
