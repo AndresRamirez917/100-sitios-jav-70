@@ -199,6 +199,7 @@ form {
                 width: 350px;
                 height: 50vh;
                 border-radius: 5px;
+                animation-name: show;
             }
             p {
                 width: 100%;
@@ -213,6 +214,27 @@ form {
         }
         
     }
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+        scale: 25%;
+    }
+    to {
+        opacity: 1;
+        scale: 100%;
+
+    }
+}
+
+img, #work {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 25% cover 30%;
+    animation-fill-mode: both;
 }
 
 //sayhi
