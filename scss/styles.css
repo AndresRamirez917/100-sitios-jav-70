@@ -178,8 +178,19 @@ form .button-1 {
 #work .work-row {
   margin-bottom: 3rem;
 }
-#work .work-row img {
-  width: 180px;
+#work .work-row .flexbox img {
+  width: 350px;
+  height: 50vh;
+}
+#work .work-row .flexbox p {
+  width: 100%;
+  margin: 1.5rem 0;
+  font-size: 1.3rem;
+  text-align: justify;
+}
+#work .work-row .flexbox button {
+  margin-top: -1rem;
+  margin-bottom: 1rem;
 }
 
 #contact h2 {

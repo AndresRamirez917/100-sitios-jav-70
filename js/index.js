@@ -5,15 +5,18 @@ async function getData() {
     const randomCoctail = coctail.drinks.sort(()=> 0.5 - Math.random()).slice(0, 4);
     randomCoctail.forEach(element => {
         const box = document.createRange().createContextualFragment(`
-            
-            <img src="${element.strDrinkThumb}" alt="">
-                <div class="work-text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, corporis culpa sequi sunt, rerum ea, mollitia libero minima minus a quaerat alias! Facilis ipsa corrupti ullam ratione vitae fugit odit cumque veniam repudiandae a. Obcaecati doloribus assumenda fuga aspernatur placeat dolorum, labore explicabo fugiat. Est, voluptate repellendus velit mollitia ab saepe! Ducimus aspernatur perspiciatis molestias asperiores facilis nulla dolore quisquam repudiandae voluptatibus voluptate officiis, laborum necessitatibus illo error cupiditate ad debitis, id possimus eveniet consectetur. Maiores corrupti illo ullam amet voluptate eius molestiae.</p>
-                        <button class="btn button-2">say hi</button>
+        <div class="flexbox">
+            <div class="flexbox-1 flex">
+                <img src="${element.strDrinkThumb}" alt="">
+                    <div class="work-text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, corporis culpa sequi sunt, rerum ea, mollitia libero minima minus a quaerat alias! Facilis ipsa corrupti ullam ratione vitae fugit odit cumque veniam repudiandae a. Obcaecati doloribus assumenda fuga aspernatur placeat dolorum, labore explicabo fugiat. Est, voluptate repellendus velit mollitia ab saepe! Ducimus aspernatur perspiciatis molestias asperiores facilis nulla dolore quisquam repudiandae voluptatibus voluptate officiis, laborum necessitatibus illo error cupiditate ad debitis, id possimus eveniet consectetur. Maiores corrupti illo ullam amet voluptate eius molestiae.</p>
+                    </div>
             </div>
+                <button class="btn button-2">say hi</button>
+        </div>
             
-            `)
+            `);
             const work_row = document.querySelector('.work-row');
             work_row.append(box)
     })

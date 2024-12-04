@@ -195,8 +195,21 @@ form {
    
     .work-row {
         margin-bottom: 3rem;
-        img {
-            width: 180px;
+        .flexbox {
+            img {
+                width: 350px;
+                height: 50vh;
+            }
+            p {
+                width: 100%;
+                margin: 1.5rem 0;
+                font-size: 1.3rem;
+                text-align: justify;
+            }
+            button {
+                margin-top: -1rem;
+                margin-bottom: 1rem;
+            }
         }
         
     }
