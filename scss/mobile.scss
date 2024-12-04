@@ -42,13 +42,22 @@
 //work
 #work {
     .work-row {
-        display: block;
-        text-align: justify;
-        img {
-            display: block;
-            text-align: center;
-            margin: 0 auto;
-            margin-bottom: 2rem;
+        .flexbox {
+            .flexbox-1 {
+                display: block;
+                text-align: justify;
+                img {
+                    display: block;
+                    text-align: center;
+                    margin: 0 auto;
+                    margin-bottom: 2rem;
+                }
+            }
+            button {
+                display: block;
+                margin: 0 auto;
+                margin-bottom: 1rem;
+            }
         }
     }
 }

@@ -28,15 +28,20 @@
   width: 100%;
 }
 
-#work .work-row {
+#work .work-row .flexbox .flexbox-1 {
   display: block;
   text-align: justify;
 }
-#work .work-row img {
+#work .work-row .flexbox .flexbox-1 img {
   display: block;
   text-align: center;
   margin: 0 auto;
   margin-bottom: 2rem;
+}
+#work .work-row .flexbox button {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
 }
 
 #banner .banner-subtitle {

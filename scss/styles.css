@@ -181,6 +181,7 @@ form .button-1 {
 #work .work-row .flexbox img {
   width: 350px;
   height: 50vh;
+  border-radius: 5px;
 }
 #work .work-row .flexbox p {
   width: 100%;

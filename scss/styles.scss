@@ -192,13 +192,13 @@ form {
 #work {
     width: 80%;
     margin: 0 auto;
-   
     .work-row {
         margin-bottom: 3rem;
         .flexbox {
             img {
                 width: 350px;
                 height: 50vh;
+                border-radius: 5px;
             }
             p {
                 width: 100%;
